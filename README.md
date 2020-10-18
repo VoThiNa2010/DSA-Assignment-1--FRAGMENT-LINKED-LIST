@@ -40,49 +40,50 @@ above mentioned doubly linked list.
 Students have access to two files: 201.dsa-a1p1-des.pdf for assignment description and FragmentLinkedList.cpp for initial code:
 * Class IList (with template T) demonstrates interface (as a blueprint) of general list data
 structure, containing following methods:
-  * void add(T e): add a new element into the end of the list.
+    * void add(T e): add a new element into the end of the list.
    * void add(int index, T e): add a new element into index index position.
-* T removeAt(int index): delete the element at index position and return that element.
-* bool removeItem(T item): delete the element has value item and return whether
+   * T removeAt(int index): delete the element at index position and return that element.
+   * bool removeItem(T item): delete the element has value item and return whether
 that element can be found.
-* bool empty(): checking whether the list is empty.
-* int size(): return the size (the number of elements) of the current list.
-* void clear(): delete all current elements in the list.
-* T get(int index): find and return the element at index position.
-* void set(int index, const T& element): set new value for element index
+   * bool empty(): checking whether the list is empty.
+   * int size(): return the size (the number of elements) of the current list.
+   * void clear(): delete all current elements in the list.
+   * T get(int index): find and return the element at index position.
+  * void set(int index, const T& element): set new value for element index
 
-* int indexOf(T item): find and return the position of the element which has value
+  * int indexOf(T item): find and return the position of the element which has value
 item in the list.
- * bool contains(T item): check whether the list contains element that has value
+  * bool contains(T item): check whether the list contains element that has value
 item. – string toString(): return the list in the form of string.
 * Class FragmentLinkedList (with template T) is the fragment list data structure needs
 implementation (students are not allowed to modify the name of either the name of this
 class or the above mentioned methods):
-* Nested class Node and Iterator respectively illustrate the nodes in the list and the
+   * Nested class Node and Iterator respectively illustrate the nodes in the list and the
 object used for iterating actions in the list. Students may use implemented definitions
 or modify if necessary.
-* The methods are overridden based on the interface IList. – Two methods for class Iterator: Iterator: ∗ Iterator begin(int fragmentIndex = 0): return the first Iterator corresponding to fragmentIndex.
+  * The methods are overridden based on the interface IList. – Two methods for class Iterator: Iterator: ∗ Iterator begin(int fragmentIndex = 0): return the first Iterator corresponding to fragmentIndex.
 E.g: with fragmentIndex = 1, return Iterator corresponding to the first element
 in fragment 1.
-∗ Iterator end(int fragmentIndex = -1): return the next of the last Iterator
+  ∗ Iterator end(int fragmentIndex = -1): return the next of the last Iterator
 corresponding to fragmentIndex. With fragmentIndex = -1, return Iterator
 corresponding to the next of last element in the list (NULL element).
 E.g: with fragmentIndex = 1, return Iterator corresponding to the next of last
 element in fragment 1.
-* Methods in class Iterator: ∗ Iterator(FragmentLinkedList<T>*, bool): set pNode to the first node (index = 0)
+* Methods in class Iterator:
+    ∗ Iterator(FragmentLinkedList<T>*, bool): set pNode to the first node (index = 0)
 in the list pointed by pList when begin = true, otherwise points to NULL
 (index = pList->size()).
- ∗ Iterator(int, FragmentLinkedList<T>*, bool): pNode points to the first
+   ∗ Iterator(int, FragmentLinkedList<T>*, bool): pNode points to the first
 node in fragment in list pointed by pList when begin = true, otherwise points
 the next node of the fragment’s last node.
-  ∗ Iterator &operator=(const Iterator &iterator): assignment operator in
+   ∗ Iterator &operator=(const Iterator &iterator): assignment operator in
 Iterator to do assign the corresponding attributes with input iterator, and returns this Iterator. ∗ T &operator*(): return data in pointed node. In case of NULL, throw an exception std::out_of_range("Segmentation␣fault!") ∗ bool operator!=(const Iterator &iterator): inequality operator in Iterator,
   
-   returns true if there is different in pointed memory or index.
-  ∗ void remove(): remove node which iterator points. After removal, node points
+    returns true if there is different in pointed memory or index.
+    ∗ void remove(): remove node which iterator points. After removal, node points
 to the previous node. In case of head, pNode is assigned to NULL with index = -1. ∗ void set(const T& element): set the new value for pNode. ∗ Iterator &operator++(): prefix operator++ which sets pNode to the next
 element and increase index by 1.
-   ∗ Iterator operator++(int): postfix operator++ which sets pNode to the next
+    ∗ Iterator operator++(int): postfix operator++ which sets pNode to the next
 element and increase index by 1.
 
 
