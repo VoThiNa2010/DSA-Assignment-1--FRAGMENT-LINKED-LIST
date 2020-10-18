@@ -1,24 +1,23 @@
-/*****C2003-DSA******/
-/***VoThiNa-20102001*****/
+#/*****C2003-DSA******/
+#/***VoThiNa-20102001*****/
 
-VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY
-HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
-FACULTY OF COMPUTER SCIENCE AND ENGINEERING
-
-
-Assignment 1
-FRAGMENT LINKED LIST
+#       VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY
+#        HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
+#      FACULTY OF COMPUTER SCIENCE AND ENGINEERING
 
 
-ASSIGNMENT 1 SPECIFICATION
-Version 2.0
-1 Outcome
+# Assignment 1 - FRAGMENT LINKED LIST
+
+
+##    ASSIGNMENT 1 SPECIFICATION
+##       Version 2.0
+###   1 Outcome
 After successfully completing this assignment, students will be able to:
 • Implement a derivative of doubly linked list, especially fragment linked list.
 • Know how to use a list data structure.
 
 
-2 Tasks
+### 2 Tasks
 Students are required to build a C++ program to implement the idea of fragment linked list,
 which is illustrated in Picture 1 and Picture 2.
 
@@ -37,7 +36,7 @@ Students are required to implement the way to store data, together with methods 
 above mentioned doubly linked list.
 
 
-3 Instruction
+### 3 Instruction
 Students have access to two files: 201.dsa-a1p1-des.pdf for assignment description and FragmentLinkedList.cpp for initial code:
 • Class IList (with template T) demonstrates interface (as a blueprint) of general list data
 structure, containing following methods:
@@ -87,7 +86,7 @@ element and increase index by 1.
 element and increase index by 1.
 
 
-4 Regulation and Submission
+### 4 Regulation and Submission
 Students write the implementation codes in STUDENT_ANSWER and submit this part to BK Elearning course site. The submission instruction and deadline will be announced on the course
 site specifically later.
 All of the students’ questions about this assignment will be answered on the course site
