@@ -20,7 +20,7 @@ After successfully completing this assignment, students will be able to:
 Students are required to build a C++ program to implement the idea of fragment linked list,
 which is illustrated in Picture 1 and Picture 2.
 
-
+![Algorithm schema](./images/schema.jpg)
 **Hình 1**: FLL with 7 elements, each fragment has the maximum size of 2 elements
 A fragment linked list is implemented based on the doubly linked list, in which the list is
 divided into fragment with maximum size fragment_max_size.
