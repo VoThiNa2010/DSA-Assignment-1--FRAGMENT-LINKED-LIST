@@ -40,7 +40,7 @@ above mentioned doubly linked list.
 Students have access to two files: 201.dsa-a1p1-des.pdf for assignment description and FragmentLinkedList.cpp for initial code:
 * Class IList (with template T) demonstrates interface (as a blueprint) of general list data
 structure, containing following methods:
-    * void add(T e): add a new element into the end of the list.
+    * `<addr>` void add(T e): add a new element into the end of the list.
    * void add(int index, T e): add a new element into index index position.
    * T removeAt(int index): delete the element at index position and return that element.
    * bool removeItem(T item): delete the element has value item and return whether
