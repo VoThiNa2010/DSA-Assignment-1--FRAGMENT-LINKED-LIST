@@ -1,6 +1,5 @@
 ##/*****C2003-DSA******/
 ##/***VoThiNa-20102001*****/
-
 ## VIETNAM NATIONAL UNIVERSITY - HO CHI MINH CITY
 ##  HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
 ## FACULTY OF COMPUTER SCIENCE AND ENGINEERING
@@ -22,7 +21,7 @@ Students are required to build a C++ program to implement the idea of fragment l
 which is illustrated in Picture 1 and Picture 2.
 
 
-Hình 1: FLL with 7 elements, each fragment has the maximum size of 2 elements
+**Hình 1**: FLL with 7 elements, each fragment has the maximum size of 2 elements
 A fragment linked list is implemented based on the doubly linked list, in which the list is
 divided into fragment with maximum size fragment_max_size.
 In order to store these fragments, list of pointers containing the address of nodes at the
@@ -94,8 +93,8 @@ element and increase index by 1.
 
 
 ### 4 Regulation and Submission
-Students write the implementation codes in STUDENT_ANSWER and submit this part to BK Elearning course site. The submission instruction and deadline will be announced on the course
+Students write the implementation codes in **STUDENT_ANSWER** and submit this part to BK Elearning course site. The submission instruction and deadline will be announced on the course
 site specifically later.
 All of the students’ questions about this assignment will be answered on the course site
-forum. DO NOT SEND ANY EMAIL FOR QUESTIONING to the teachers or teaching assistants under any circumstances.
+forum. **DO NOT SEND ANY EMAIL FOR QUESTIONING** to the teachers or teaching assistants under any circumstances.
 `———————THE END———————`
